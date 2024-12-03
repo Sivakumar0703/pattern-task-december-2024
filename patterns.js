@@ -8,6 +8,8 @@ printInvertedPyramid(rows);
 
 // print hallow square
 function printHallowSquare(rows){
+    console.log("Hallow Square");
+    console.log("");
     let currentRows = "";
     for(let outer=1; outer<=rows; outer++){
         for(let inner=1; inner<=rows; inner++){
@@ -22,11 +24,14 @@ function printHallowSquare(rows){
         console.log(currentRows);
         currentRows = "";
     }
+    console.log("");
 }
 
 
 // print solid square
 function printSquare(rows){
+    console.log("Solid Square");
+    console.log("");
     let currentRows = "";
     for(let outer=1; outer<=rows; outer++){
         for(let inner=1; inner<=rows; inner++){
@@ -35,10 +40,13 @@ function printSquare(rows){
         console.log(currentRows);
         currentRows = "";
     }
+    console.log("");
 }
 
 // print inverted right angle triangle
 function printInvertedRightAngleTriangle(rows){
+    console.log("Inverted Right Angle Triangle");
+    console.log("");
     let currentRows = "";
     for(let outer=rows; outer>0; outer--){
         for(let inner=0; inner<=rows; inner++){
@@ -49,10 +57,13 @@ function printInvertedRightAngleTriangle(rows){
         console.log(currentRows);
         currentRows = "";
     }
+    console.log("");
 }
 
 // print inverted pyramid
 function printInvertedPyramid(rows){
+    console.log("Inverted Pyramid");
+    console.log("");
     let currentRows = "";
     for(let outer=rows; outer>0; outer--){
         for(let space=1; space<=rows-outer; space++){
@@ -64,4 +75,5 @@ function printInvertedPyramid(rows){
         console.log(currentRows);
         currentRows = "";
     }
+    console.log("");
 }
